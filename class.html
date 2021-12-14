@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+<script>
+    class Gato{
+        constructor(nome, idade, sexo){
+            this.nome = nome;
+            this.idade = idade;
+            this.sexo = sexo;
+        }
+        miar(){
+            console.log(`${this.nome} está miando! MIAUU`);
+        }
+        comer(){
+            console.log(`Deu fome! ${this.nome} está comendo`);
+        }
+    }
+
+    const flora = new Gato('flora',2,'f');
+    flora.comer();
+    flora.miar();
+</script>
